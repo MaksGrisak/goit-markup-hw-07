@@ -53,7 +53,6 @@ ul {
   font-family: var(--main-font);
   font-size: 14px;
   letter-spacing: 0.03em;
-  padding: 0 15px 0 15px;
 }
 
 .container {
@@ -458,8 +457,6 @@ img {
   fill: currentColor;
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
