@@ -539,10 +539,11 @@ img {
   height: 92px;
   -webkit-transition-property: color, border;
   transition-property: color, border;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients__link:hover, .clients__link:focus {
+  border: 1px solid var(--button-color-hero);
 }
 .clients__link:hover, .clients__link:focus {
   border: 1px solid var(--button-color-hero);
