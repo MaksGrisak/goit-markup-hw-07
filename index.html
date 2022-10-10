@@ -21,28 +21,27 @@
 
 <body class="page">
     <!-- header -->
-    <header class="page-header">
-        <div class="container header-container">
-            <nav class="navigation">
-                <a class="logo" href=""><span class="web-color">Web</span><span class="studio-color">Studio</span></a>
-                <ul class="link-list-borow">
-                    <li class="item"><a class="link-list-item .border-link active item-border" href="index.html">Студія </a></li>
-                    <li class="item"><a class="link-list-item .border-item-portfolio " href="portfolio.html">Портфоліо</a></li>
-                    <li class="item"><a class="link-list-item .  " href="">Контакти</a></li>
+    <header class="header-page">
+        <div class="container header__container">
+            <nav class="site-nav">
+                <a class="logo link" href="/">Web<span class="site-logo link">Studio</span></a>
+                <ul class="nav__list list">
+                    <li class="list-item header__item"><a class="nav__link active link current"
+                            href="./main.html">Студія</a></li>
+                    <li class="list-item header__item"><a class="nav__link link" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="list-item header__item"><a class="nav__link link" href="">Контакти</a></li>
                 </ul>
             </nav>
-            <ul class="contact-list">
-                <li class="item"><a class="contact-list-item active" href="mailto:info@devstudio.com">
-                        <svg class="contact-icon" width="16" height="12">
-                            <use href="./images/icon.svg/contact-icon.svg#envelope"></use>
-                        </svg>
-                        info@devstudio.com
-                    </a></li>
-                <li class="item"><a class="contact-list-item" href="tel:+380961111111">
-                        <svg class="contact-icon" width="10" height="16">
-                            <use href="./images/icon.svg/contact-icon.svg#smartphone"></use>
-                        </svg>
-                        +38096 111 11 11</a></li>
+    
+            <ul class="header__group list">
+                <li class="list-item"><a class="link__contact link" href="mailto:info@devstudio.com">
+                        <svg class="link-address" width="16" height="12">
+                            <use href="./images/icons.svg#icon-mail"></use>
+                        </svg>info@devstudio.com</a></li>
+                <li class="list-item"><a class="link__contact link" href="tel:+380961111111">
+                        <svg class="link-address" width="10" height="16">
+                            <use href="./images/icons.svg#icon-tel"></use>
+                        </svg>+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
